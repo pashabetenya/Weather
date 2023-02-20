@@ -6,7 +6,7 @@ The architecture we used is called «Model-View-ViewModel» (MVVM). It allows us
 
 ```
 represents the data and business logic of the application. In our case,
-the model contains the «Weather» and «WeatherApiClient» classes, which are responsible
+the model contains the «Weather» and «WeatherRepository» classes, which are responsible
 for retrieving weather data from the OpenWeatherMap server.
 ```
 
@@ -22,7 +22,7 @@ which displays weather data and allows the user to enter a city name.
 ```
 links the model and the view. It contains the application's business logic,
 and provides the data for the view. In our case, the «ViewModel» contains
-the «WeatherViewModel» class, which is responsible for retrievingweather data from the «WeatherApiClient»,
+the «WeatherViewModel» class, which is responsible for retrievingweather data from the «WeatherRepository»,
 and provides that data to the «WeatherWidget».
 ```
 
