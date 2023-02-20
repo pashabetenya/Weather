@@ -20,7 +20,7 @@ Model-View-ViewModel.
 
 <table>
   <tr>
-    <td>Photo 1</td>
+    <td>Photo 1.</td>
     <td>Photo 2.</td>
   </tr>
   <tr>
@@ -30,3 +30,14 @@ Model-View-ViewModel.
  </table>
 
 ### MVVM.
+
+<table>
+  <tr>
+    <td>Photo 1.</td>
+    <td>Photo 2.</td>
+  </tr>
+  <tr>
+    <td><img src="assets/MVVM - 1.png" width=270 height=480></td>
+    <td><img src="assets/MVVM - 2.png" width=270 height=480></td>
+  </tr>
+ </table>
