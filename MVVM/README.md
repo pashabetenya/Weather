@@ -2,7 +2,7 @@ The architecture we used is called «Model-View-ViewModel» (MVVM). It allows us
 
 ## Layers of our architecture:
 
-### The «Model»
+### Model:
 
 ```
 represents the data and business logic of the application. In our case,
@@ -10,14 +10,14 @@ the model contains the «Weather» and «WeatherRepository» classes, which are 
 for retrieving weather data from the OpenWeatherMap server.
 ```
 
-### The «View»
+### View:
 
 ```
 displays the data and reacts to user actions. In our case, the view is represented by the «WeatherWidget»,
 which displays weather data and allows the user to enter a city name.
 ```
 
-### A «ViewModel»
+### ViewModel:
 
 ```
 links the model and the view. It contains the application's business logic,
